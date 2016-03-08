@@ -37,11 +37,11 @@ grunt.initConfig({
 Type: `String`
 Default value: Same as dest but with ".css" replace with ".js"
 
-#### dest
+#### jsDest
 Type: `String`
-Default value: `undefined`
+Default value: same as dest folder.
 
-If set the output files will be saved here.
+If set the js output files will be saved here.
 
 #### namespace
 Type: `String`
