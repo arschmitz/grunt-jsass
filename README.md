@@ -33,15 +33,16 @@ grunt.initConfig({
 
 ## Options
 
-#### jsName
-Type: `String`
-Default value: Same as dest but with ".css" replace with ".js"
-
 #### jsDest
 Type: `String`
-Default value: same as dest folder.
+Default value: same as dest but with `.scss` replaced with `.js`
 
 If set the js output files will be saved here.
+
+### global
+Type: `String`
+Default value: "sassVars"
+* Global namespace in browser enviroments.
 
 #### namespace
 Type: `String`
@@ -60,3 +61,10 @@ Type: `Boolean`
 Default value: `true`
 
 Output module names as heads in scss file
+
+#### template
+Type: `Boolean`
+Default value: `true`
+
+Path to custom template file
+if true it uses the default template

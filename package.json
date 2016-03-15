@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "jsass-vars": "0.0.3"
+    "jsass-vars": "1.0.0"
   },
   "devDependencies": {
     "jquery": "1.11.1",
