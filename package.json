@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsass",
   "description": "A tool for compiling scss variables from js or json files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/arschmitz/grunt-jsass",
   "author": {
     "name": "Alexander Schmitz",
