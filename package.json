@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "jsass-vars": "1.0.0"
+    "jsass-vars": "2.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
