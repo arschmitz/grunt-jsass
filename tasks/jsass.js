@@ -2,7 +2,7 @@ var jsass = require( "jsass-vars" );
 var path = require( "path" );
 module.exports = function( grunt ) {
 	grunt.registerMultiTask( "jsass", "generate scss variable files", function() {
-		this.files.forEach( function( file ) {
+		this.files.forEach( ( file ) => {
 			var options = this.options();
 			var paths = file.src.filter( function( filepath ) {
 
